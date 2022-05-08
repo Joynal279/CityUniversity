@@ -100,7 +100,7 @@ header{
     transition: width 0.5s;
 }
 .cover img:hover{
-    width: 1220px;
+    /* width: 1220px; */
     
 }
 /* end cover photo css */
@@ -124,7 +124,7 @@ header{
     height: 280px;
     margin:10px;
     display: inline-block;
-    
+    cursor: pointer;
     margin-left: 20px;
 }
 .news-heading img{
@@ -133,10 +133,12 @@ header{
     margin-bottom: 10px;
     box-shadow:4px 8px 10px rgba(0,0,0,0.2),
                4px 8px 10px rgba(0,0,0,0.2);
-    transition: width 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
 }
 .news-heading img:hover{
-    width: 305px;
+    cursor: pointer;
+    transform: scale(1.1);
 
 }
 .news-heading p{
@@ -242,7 +244,7 @@ header{
 .event-picture{
     width: 210px;
     height: 200px;
-   
+    cursor: pointer;
     display:inline-block;
     
     
@@ -251,11 +253,10 @@ header{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    transition: width 0.5s, height 0.5s;
+    transition: 0.5s;
 }
 .event-picture img:hover{
-    width: 212px;
-    
+    transform: scale(1.1);    
 }
 .event-picture p{
     margin-top: 20px;
