@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* start nav css */
+.nav{
+    width:100%;
+    height: auto;
+    background: #333333;
+}
+.nav::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav ul{
+ float: right;
+ margin-right: 30px;
+ 
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav ul li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    color: #fff;
+}
+.nav ul li a:hover{
+    background: #000000;
+}
+/* end nav css */
+/* start logo css */
+.logo{
+    width: 100%;
+    height: auto;
+    background: #800000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.logo img{
+    padding: 10px 10px;
+    display: block;
+    
+    margin:auto;
+}
+/* end logo css */
+/* start navbar css */
+
+.navbar{
+    width: 100%;
+    height: auto;
+    background: #800000;
+}
+.navbar ul{
+   
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px 50px;
+    display: block;
+}
+.navbar ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* end navbar css */
+
+/* start cover photo css/ */
+.cover{
+    width: 100%;
+    height: auto;
+    background: gray;
+}
+.cover img{
+    width: 1200px;
+    height: 450px;
+    margin: 0px auto;
+    display: block;
+    transition: width 0.5s;
+}
+.cover img:hover{
+    width: 1220px;
+    
+}
+/* end cover photo css */
+
+.news-title{
+    width: 100%;
+    height: auto;
+}
+.news-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px 60px;
+    text-shadow: 2px 2px 3px #800000;
+}
+.news{
+    background: #DEE1E6;
+}
+.news-heading{
+    width: 300px;
+    height: 280px;
+    margin:10px;
+    display: inline-block;
+    
+    margin-left: 20px;
+}
+.news-heading img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow:4px 8px 10px rgba(0,0,0,0.2),
+               4px 8px 10px rgba(0,0,0,0.2);
+    transition: width 0.5s;
+}
+.news-heading img:hover{
+    width: 305px;
+
+}
+.news-heading p{
+    padding: 5px 5px;
+    margin-top: 10px;
+    
+}
+.news-heading a{
+    text-transform: capitalize;
+    color: #800000;
+    text-decoration: none;
+    
+}
+.news-heading a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.update-news{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.update-news h2{
+    margin-right: 50px;
+    margin-top: 100px;
+    text-transform: capitalize;
+    
+
+}
+.update-news a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.update-news a:hover{
+    color: #800000;
+}
+.update-news p{
+    margin-top: 20px;
+}
+
+.video-section{
+    width: 100%;
+    height: 400px;
+    background: #363636;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    
+}
+.video{
+    width:600px;
+     height:400px;
+     
+     float: left;
+    padding-left: 100px;
+}
+.video-text{
+    width:500px;
+    height: auto;
+    float: left;
+}
+.video-text h2{
+    padding: 40px;
+    padding-left: 100px;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+}
+.video-text p{
+    padding: 40px;
+    padding-left: 100px;
+    color: #fff;
+}
+.video-text h1{
+    padding: 40px;
+    padding-left: 100px;
+    
+    font-weight: bold;
+}
+.video-text a{
+    color: #fff;
+    text-decoration: none;
+}
+.video-text a:hover{
+    color: #800000;
+    text-decoration: underline;
+}
+
+.events{
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    background: #EDEDED;
+}
+.event-text{
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+    color: #800000;
+}
+.event-picture{
+    width: 210px;
+    height: 200px;
+   
+    display:inline-block;
+    
+    
+}
+.event-picture img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+}
+.event-picture img:hover{
+    width: 212px;
+    
+}
+.event-picture p{
+    margin-top: 20px;
+}
+.event-picture a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 35px;
+    color: #800000;
+
+}
+.event-picture a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.footer-bar{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background: #3F3E3E;
+    color: #DEE1E6;
+    
+    
+}
+.footer-bar::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.footer-left{
+    width: 250px;
+    height: auto;
+  float: left;
+  color: #DEE1E6;
+  border-right: 1px solid #DEE1E6;
+}
+.footer-left ul{
+
+}
+.footer-left ul li{
+    
+    list-style: none;
+}
+.footer-left ul li a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #DEE1E6;
+}
+.footer-left ul li a:hover{
+    text-decoration: underline;
+}
+.footer-image-left{
+    
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+      float: left;
+      
+    
+}
+.footer-left ul{
+
+}
+.footer-image-left ul li{
+    
+    list-style: none;
+}
+.footer-image-left ul li a{
+    letter-spacing: 3px;
+    
+    text-decoration: none;
+    color: #DEE1E6;
+}
+.footer-image-left ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-image{
+    width: 350px;
+    height: auto;
+    float: left;
+    border-right: 1px solid #fff;
+}
+.footer-image-right{
+    width: 200px;
+    height: auto;
+   float: left;
+}
+
+.footer-image-right ul li{
+    
+    list-style: none;
+}
+.footer-image-right ul li a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #DEE1E6;
+}
+.footer-image-right ul li a:hover{
+    text-decoration: underline;
+}
+.footer-right{
+    width: 200px;
+    height: auto;
+  float: left;
+}
+.footer-right ul{
+
+}
+.footer-right ul li{
+    
+    list-style: none;
+}
+.footer-right ul li a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #DEE1E6;
+}
+.footer-right ul li a:hover{
+    text-decoration: underline;
+}
+
+.copy{
+    background: #333333;
+    border-top: 1px solid #000;
+}
+.copy p{
+    text-align: center;
+    padding: 15px;
+    color: #DEE1E6;
+}
+
+
